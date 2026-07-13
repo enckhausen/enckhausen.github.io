@@ -1,0 +1,11 @@
+export async function onRequest(context) {
+  const url = new URL(context.request.url);
+  
+  // Strips the "/es" prefix so it requests the root files of your Spanish project
+  const cleanPath = url.pathname.replace(/^\/es/, "");
+  
+  // Combines it with your unique Cloudflare Pages address
+  const upstreamUrl = `https://pages.dev${cleanPath}${url.search}`;
+  
+  return fetch(upstreamUrl, context.request);
+}
