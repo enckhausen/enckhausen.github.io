@@ -1,0 +1,1 @@
+/es/* https://pages.dev 301
