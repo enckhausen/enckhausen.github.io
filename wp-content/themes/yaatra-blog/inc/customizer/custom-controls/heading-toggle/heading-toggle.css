@@ -1,0 +1,35 @@
+/**
+ * Custom Style for Heading Toggle Control
+ *
+ * @package Yaatra Blog
+ */
+
+.cv-customizer-heading-toggle {
+    display: block;
+    margin: 0 -12px;
+    padding: 13px 12px;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.customize-control-cv-heading-toggle .description {
+    margin-top: 10px;
+}
+
+.cv-customize-heading-toggle .toggle-button{
+    position: absolute;
+    top: 9px;
+    right: 2px;
+}
+
+li.customize-control.customize-control-cv-heading-toggle{
+    position: relative;
+}

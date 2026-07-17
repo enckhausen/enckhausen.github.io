@@ -1,0 +1,676 @@
+/*------------------------------------------
+Reponsive css for max width 1400px and min width 1200px
+--------------------------------------------*/
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .banner-title {
+    font-size: 32px;
+  }
+
+  .banner-content {
+    padding: 14px;
+  }
+
+  .banner-info {
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .banner-btn a {
+    font-size: 14px;
+  }
+
+  .banner-title::after {
+    height: 2px;
+    bottom: -8px;
+  }
+
+  .entry-title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .single article.hentry h1.entry-title {
+    font-size: 26px;
+    margin-bottom: 14px;
+  }
+
+  .entry-btn a {
+    padding: 6px 16px;
+  }
+
+  .page-header .page-title {
+    font-size: 26px;
+  }
+
+  .yaatra-blog-related-post-title {
+    font-size: 24px;
+  }
+
+  .yaatra-blog-related-posts-wrapper .entry-title {
+    font-size: 18px;
+  }
+
+  .site-header .widget,
+  #secondary .widget {
+    padding: 20px;
+  }
+
+  .no-sidebar .archive-grid-post-wrapper article {
+    width: 47.5%;
+    margin-left: 2%;
+  }
+
+}
+
+/*------------------------------------------
+Reponsive css for max width 1200px
+--------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+
+  .banner-title {
+    font-size: 32px;
+  }
+
+  .banner-content {
+    padding: 14px;
+  }
+
+  .banner-content-wrapper {
+    width: 80%;
+  }
+
+  .banner-info {
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .banner-btn a {
+    font-size: 14px;
+  }
+
+  .banner-title::after {
+    height: 2px;
+    bottom: -8px;
+  }
+
+  .site-title a,
+  .site-title a:hover {
+    font-size: 46px;
+  }
+
+  .entry-title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .single article.hentry h1.entry-title {
+    font-size: 26px;
+    margin-bottom: 14px;
+  }
+
+  .entry-btn a {
+    padding: 6px 16px;
+  }
+
+  .page-header .page-title {
+    font-size: 26px;
+  }
+
+  .site-header .widget,
+  #secondary .widget {
+    padding: 20px 10px;
+  }
+
+  .site-header .widget,
+  #secondary .widget {
+    padding: 20px;
+  }
+
+  .widget_search .search-submit,
+  .widget_search .search-submit:hover {
+    font-size: 12px;
+  }
+
+  .yaatra-blog-related-post-title {
+    font-size: 24px;
+  }
+
+  .yaatra-blog-related-posts-wrapper .entry-title {
+    font-size: 18px;
+  }
+
+  .no-sidebar .archive-grid-post-wrapper article {
+    width: 47.5%;
+    margin-left: 2%;
+  }
+
+  .search-no-results .no-results.not-found {
+    margin-top: 40px;
+    padding: 40px;
+  }
+
+  .search-no-results #primary {
+    width: 100%;
+  }
+
+  .error-num {
+    font-size: 100px;
+  }
+
+  .error404 #main {
+    width: 80%;
+  }
+
+  .error-num span {
+    font-size: 40px;
+  }
+
+  .error404 #primary {
+    width: 100%;
+    padding: 100px 0 60px 0;
+  }
+
+}
+
+/*------------------------------------------
+Reponsive css for max width 980px
+--------------------------------------------*/
+@media only screen and (max-width: 980px) {
+
+  .left-sidebar #primary,
+  .left-sidebar.home.blog #primary,
+  #primary,
+  .home.blog #primary,
+  #secondary,
+  .home.blog #secondary {
+    float: none;
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  #masthead {
+    width: 30%;
+  }
+
+  .site-title a,
+  .site-title a:hover {
+    font-size: 20px;
+  }
+
+  .no-sidebar .main-content-wrapper,
+  .main-content-wrapper {
+    width: 70%;
+  }
+
+  .left-sidebar #secondary,
+  .left-sidebar.home.blog #secondary {
+    float: none;
+  }
+
+  .banner-info {
+    font-size: 13px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-title::after {
+    height: 2px;
+    bottom: -4px;
+  }
+
+  .banner-content {
+    margin: 5px;
+    padding: 6px;
+  }
+
+  .banner-btn a {
+    font-size: 14px;
+  }
+
+  #colophon {
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .site-branding {
+    padding: 4px;
+    text-align: center;
+  }
+
+  .widget-title::before {
+    margin-right: 5px;
+  }
+
+  .widget-title::after {
+    margin-left: 5px;
+  }
+
+  .yaatra-blog-related-post-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .yaatra-blog-related-posts-wrapper .entry-title {
+    font-size: 16px;
+  }
+
+  .widget_archive a,
+  .widget_categories a,
+  .widget_recent_entries a,
+  .widget_meta a,
+  .widget_recent_comments li,
+  .widget_rss li,
+  .widget_pages li a,
+  .widget_nav_menu li a {
+    display: block;
+  }
+
+  .error-num {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .error-num span {
+    font-size: 30px;
+  }
+
+  .error404 #main {
+    padding: 20px;
+  }
+
+  #colophon .widget {
+    width: 97%;
+  }
+
+  .no-sidebar .archive-grid-post-wrapper article,
+  .no-sidebar.grid-archive-layout article {
+    width: 46%;
+  }
+
+}
+
+/*------------------------------------------
+Reponsive css for max width 768px
+--------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  .cv-missed-wrapper{
+    display: block;
+  }
+
+  .blog .cv-missed-wrapper article{
+    width:48%;
+    margin: 0% -5px 20px 2%;
+  }
+
+  .banner-content-wrapper {
+    width: 100%;
+  }
+
+  .cv-banner-wrapper{
+    display: block;
+    margin-top:3%;
+  }
+
+  .banner-info {
+    display: none;
+  }
+
+  .banner-btn a i {
+    font-size: 13px;
+  }
+
+  .banner-title::after{
+    bottom:-8px;
+  }
+
+  .banner-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .entry-title {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .single article.hentry h1.entry-title {
+    font-size: 22px;
+  }
+
+  .entry-meta a {
+    font-size: 12px;
+
+  }
+
+  .tags-links,
+  .cat-links a {
+    font-size: 13px;
+  }
+
+  .entry-btn a {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  .entry-content {
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 1.8;
+    margin: 10px 0 0;
+  }
+
+  #site-navigation ul li a {
+    font-size: 14px;
+  }
+
+  #masthead .yaatra_blog_latest_posts .cv-post-content,
+  #masthead .yaatra_blog_latest_posts .cv-single-post-wrap>a {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .cv-footer-logo,
+  .cv-footer-right-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cv-footer-logo,
+  #colophon .cv-social-icons-wrapper,
+  .site-info {
+    float: none;
+    text-align: center;
+  }
+
+  .author-description {
+    font-size: 14px;
+  }
+
+  .navigation .nav-links a,
+  .bttn,
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  #comments p {
+    font-size: 14px;
+  }
+
+  .widget_archive a,
+  .widget_categories a,
+  .widget_recent_entries a,
+  .widget_meta a,
+  .widget_recent_comments li,
+  .widget_rss li,
+  .widget_pages li a,
+  .widget_nav_menu li a {
+    font-size: 15px;
+  }
+
+  #comments h2.comments-title {
+    font-size: 16px;
+    margin: 4px 0;
+    padding: 0px 0;
+  }
+
+  .no-sidebar .archive-grid-post-wrapper article,
+  .no-sidebar.grid-archive-layout article,
+  .archive-grid-post-wrapper article,
+  .grid-archive-layout article {
+    width: 97%;
+  }
+
+  .author-social .cv-social-icons-wrapper a {
+    font-size: 12px;
+  }
+
+  .custom-header.has-bg-img .entry-title {
+    font-size: 26px;
+    padding: 0;
+  }
+
+  .custom-header.has-bg-img {
+    padding: 24px 0;
+  }
+
+  .page-header .page-title {
+    margin-left: 3%;
+  }
+
+  .home #colophon {
+    margin-top: 40px;
+  }
+
+  .cv-author-box-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .cv-footer-logo img {
+    width: 40%;
+  }
+
+  .search-no-results .no-results.not-found {
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .search-no-results #primary .search-submit {
+    font-size: 20px;
+  }
+
+  .error404 #primary {
+    padding: 40px 0 0 0;
+  }
+
+  .page-header .page-title {
+    font-size: 20px;
+  }
+
+  .navigation.pagination {
+    margin-bottom: 30px;
+  }
+
+
+
+  .footer-widget--column_three .footer-widget-wrapper.yaatra-blog-grid,
+  .footer-widget--column_four .footer-widget-wrapper.yaatra-blog-grid {
+  grid-template-columns: repeat(2, calc(50% - 1.33em));
+  }
+
+  .masonry-archive-layout article{
+    width:100%
+  }
+  .social-icons-wrapper{
+    margin:20px 0px;
+  }
+
+  .cv-bottom-wrapper{
+    display: block;
+  }
+
+  .cv-banner-wrapper figure{
+    margin-left: 0px;
+  }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 600px) {
+
+  .blog .cv-missed-wrapper article{
+    width:98%;
+  }
+
+  .cv-banner-wrapper figure{
+    margin-left: 0px;
+  }
+  .cv-content-wrapper{
+    margin:50px auto 0px;
+  }
+
+  body.logged-in {
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+
+  .menu-toggle {
+    display: block;
+    width: 100%;
+  }
+
+  #site-navigation {
+    display: none;
+  }
+
+  .menu-primary-menu-container {
+    margin-bottom: 1px;
+  }
+
+  .page-header .page-title {
+    font-size: 18px;
+  }
+
+  .banner-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .banner-title::after {
+    display: none;
+  }
+
+  .custom-logo {
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  #masthead .widget {
+    display: none;
+  }
+
+  #masthead {
+    width: 100%;
+    float: none;
+    position: inherit;
+  }
+
+  .no-sidebar .main-content-wrapper,
+  .main-content-wrapper {
+    width: 100%;
+    float: none;
+  }
+
+  .left-sidebar #primary,
+  #primary,
+  .home.blog #primary,
+  #secondary,
+  .home.blog #secondary {
+    float: none;
+    width: 96%;
+    margin: 0 auto ;
+  }
+
+  #colophon {
+    margin-top: 0;
+  }
+
+  .left-sidebar #secondary {
+    float: none;
+  }
+
+  #cv-scrollup {
+    right: 0;
+  }
+
+  .cv-footer-logo img {
+    width: 30%;
+  }
+
+  #primary-menu {
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .masonry-archive-layout article{
+    width:100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .single article.hentry h1.entry-title {
+    font-size: 18px;
+  }
+
+  #masthead{
+    height: auto;
+  }
+
+  .yaatra-blog-related-posts-wrapper article {
+    width: 97%;
+  }
+
+  .comment-content {
+    padding-left: 0px;
+  }
+
+  .comments-area ol.children {
+    margin: 0 0 0 5px;
+  }
+
+  .search-no-results #primary .search-submit {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .site-title a,
+  .site-title a:hover {
+    font-size: 32px;
+  }
+
+  .banner-btn a i,
+  .banner-btn a {
+    font-size: 12px;
+  }
+
+  .site-description {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .no-sidebar .archive-grid-post-wrapper article,
+  .no-sidebar.grid-archive-layout article,
+  .archive-grid-post-wrapper article,
+  .grid-archive-layout article {
+    width: 100%;
+  }
+
+  .no-sidebar .archive-grid-post-wrapper article,
+  .no-sidebar.grid-archive-layout article,
+  .archive-grid-post-wrapper article,
+  .grid-archive-layout article,
+  .no-sidebar .archive-grid-post-wrapper,
+  .archive-grid-post-wrapper,
+  .grid-archive-layout .site-main {
+    margin-left: 0;
+  }
+
+  .left-sidebar #primary,
+  #primary,
+  .home.blog #primary,
+  #secondary,
+  .home.blog #secondary {
+    width: 100%;
+  }
+
+  .yaatra-blog-grid,.cv-bottom-wrapper{
+    display: block;
+  }
+
+
+
+}
